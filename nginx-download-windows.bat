@@ -3,7 +3,7 @@ set currdir=%~dp0
 IF "%currdir:~-1%"=="\" SET currdir=%currdir:~0,-1%
 cd /d "%currdir%"
 
-set NGINX_VER=1.16.1
+set NGINX_VER=1.21.3
 set zipfile=nginx-%NGINX_VER%.zip
 set NGINX_FOLDER_NAME=nginx-%NGINX_VER%
 
