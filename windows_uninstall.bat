@@ -5,6 +5,7 @@ cd /d "%currdir%"
 
 set installpath=C:\nginx
 
+call firewall_delete_nginx.bat
 call windows_service_delete.bat
 
 cd C:\

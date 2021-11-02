@@ -1,0 +1,1 @@
+netsh advfirewall firewall delete rule name="nginx" program="C:\nginx\nginx.exe"

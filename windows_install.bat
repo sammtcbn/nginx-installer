@@ -13,9 +13,12 @@ robocopy nginx %installpath% /E
 copy /Y "%currdir%\windows_service_create.bat" %installpath%
 copy /Y "%currdir%\windows_service_delete.bat" %installpath%
 copy /Y "%currdir%\windows_uninstall.bat" %installpath%
+copy /Y "%currdir%\firewall_allow_nginx.bat" %installpath%
+copy /Y "%currdir%\firewall_delete_nginx.bat" %installpath%
 copy /Y "%currdir%\nssm.exe" %installpath%
 
 call windows_service_create.bat
+call firewall_allow_nginx.bat
 
 :END
 echo bye

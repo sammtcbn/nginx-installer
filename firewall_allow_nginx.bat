@@ -1,0 +1,1 @@
+netsh advfirewall firewall add rule name="nginx" dir=in action=allow program="C:\nginx\nginx.exe" enable=yes
