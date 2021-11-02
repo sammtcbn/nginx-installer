@@ -19,4 +19,4 @@ call windows_service_create.bat
 
 :END
 echo bye
-timeout /t 5
+timeout /t 3

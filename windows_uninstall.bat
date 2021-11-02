@@ -18,4 +18,4 @@ if %errorlevel% neq 0 (
 
 :END
 echo bye
-timeout /t 5
+timeout /t 3

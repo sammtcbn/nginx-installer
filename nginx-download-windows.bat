@@ -32,4 +32,4 @@ rename %NGINX_FOLDER_NAME% nginx
 
 :END
 echo bye
-timeout /t 5
+timeout /t 3
